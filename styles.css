@@ -1,0 +1,27 @@
+/* Styles Sheet */
+
+h1 {
+    background-color: burlywood;
+}
+
+ul {
+    background-color: red;
+}
+
+.dessert {
+    background-color: aqua;
+}
+
+.spicy {
+    background-color: blueviolet;
+}
+
+.chicken,
+.vegetarian {
+    background-color: green;
+}
+
+h2 {
+    background-color:lawngreen;
+    color:cornflowerblue;
+}
