@@ -1,4 +1,7 @@
 /* Styles Sheet */
+* {
+    background-color: lightyellow;
+}
 
 h1 {
     text-align: center;
@@ -10,19 +13,17 @@ h1 {
     padding: 12px;
     gap: 12px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 .item {
-    height: 48px;
-    line-height: 48px;
-    width: 100px;
-    background: lightyellow;
+    font-size:larger;
+    background-color: lightyellow;
     border: 4px solid black;
+    padding: 8px;
     text-align: center;
     text-wrap: wrap;
     flex: 1;
+    min-width: 100px;
 }
 
