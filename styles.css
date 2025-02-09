@@ -13,6 +13,7 @@ h1 {
     padding: 12px;
     gap: 12px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -23,7 +24,6 @@ h1 {
     padding: 8px;
     text-align: center;
     text-wrap: wrap;
-    flex: 1;
     min-width: 100px;
 }
 
