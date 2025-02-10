@@ -1,10 +1,13 @@
 /* Styles Sheet */
 * {
     background-color: lightyellow;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
 }
 
 .container {
@@ -13,7 +16,7 @@ h1 {
     padding: 12px;
     gap: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
