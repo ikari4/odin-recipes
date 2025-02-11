@@ -11,27 +11,35 @@
 
 .image {
     display: flex;
+    margin-bottom: 20px;
     flex: 1;
 }
 
 .container {
-    background-color: rgb(183,171,145);
-    border: 4px rgb(9,53,127);
-    padding: 12px;
-    margin: 8px 0px;
-    gap: 12px;
+    background-color: rgb(241,244,243);
+    /* margin: 0px 20px rgb(241,244,243); */
+    padding: 10px;
+    gap: 10px;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
 }
 
-.item {
-    font-size:larger;
+a {
+    color: rgb(9,53,127);
     background-color: rgb(241,244,243);
-    border: 4px rgb(9,53,127);
-    padding: 8px;
-    text-align: center;
-    text-wrap: wrap;
-    min-width: 100px;
 }
 
+.item {
+    font-size:large;
+    text-align: left;
+    text-wrap: wrap;
+    min-width: 180px;
+}
+
+.break {
+    background-color: rgb(183,171,145);
+    color: rgb(9,53,127);
+    font-size: larger;
+    font-weight: bolder;
+}
