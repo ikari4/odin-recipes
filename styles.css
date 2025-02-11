@@ -21,7 +21,7 @@
     padding: 10px;
     gap: 10px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -34,12 +34,13 @@ a {
     font-size:large;
     text-align: left;
     text-wrap: wrap;
-    min-width: 180px;
+    margin: 20px 0;
+    min-width: 100px;
 }
 
 .break {
     background-color: rgb(183,171,145);
     color: rgb(9,53,127);
-    font-size: larger;
+    font-size: 20pt;
     font-weight: bolder;
 }
