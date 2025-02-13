@@ -26,7 +26,7 @@
 }
 
 img {
-    max-width: 200px;
+    max-width: 195px;
 }
 
 a { /* Hypertext Appearance */
@@ -39,7 +39,7 @@ a { /* Hypertext Appearance */
     margin-top: -65px;
     margin-left: 18px;
     text-align: left;
-    max-width: 180px;
+    max-width: 150px;
     min-height: 60px;
 }
 
